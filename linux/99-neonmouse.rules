@@ -1,0 +1,4 @@
+# NeonMouse: доступ к мышам Razer и Logitech без root
+KERNEL=="hidraw*", ATTRS{idVendor}=="1532", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="046d", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="09da", TAG+="uaccess"
